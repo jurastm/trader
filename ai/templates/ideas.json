@@ -1,0 +1,26 @@
+[
+    {
+        "Name": "gru_based_rl_actor_critic",
+        "Title": "Gated Recurrent Unit (GRU) based Actor-Critic: A novel approach in hight frequency trading using GRU.",
+        "Experiment": "In this experiment, we compare the performance of GRU based Actor-Critic model with vanilla fully connected based Actor-Critic model in high frequency trading.",
+        "Interestingness": 4,
+        "Feasibility": 10,
+        "Novelty": 3
+    },
+    {
+        "Name": "dynamic_reward_structures",
+        "Title": "Exploring Dynamic Reward Structures in Reinforcement Learning for High-Frequency Trading",
+        "Experiment": "Modify the 'step' function in the TradingEnv class to implement two new reward structures: 1) Risk-adjusted returns (using a simplified Sharpe ratio) and 2) Drawdown penalties. Each structure will be tested in separate training runs to evaluate their impact on cumulative returns and stability of trading performance. The best performing reward structure will be identified based on defined metrics.",
+        "Interestingness": 8,
+        "Feasibility": 8,
+        "Novelty": 6
+    },
+    {
+        "Name": "role_based_multi_agent_trading",
+        "Title": "Role-Based Multi-Agent Reinforcement Learning for Cryptocurrency Trading",
+        "Experiment": "Modify the TradingEnv class to support multiple agents with distinct trading roles (e.g., one for long positions and another for short positions). Each agent will have its own strategy and reward mechanism based on its assigned role. Evaluate the performance of each role individually and in combination, analyzing metrics such as average profit and stability of returns across different configurations.",
+        "Interestingness": 8,
+        "Feasibility": 8,
+        "Novelty": 7
+    }
+]

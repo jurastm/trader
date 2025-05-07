@@ -1,0 +1,17 @@
+{
+    "accuracy": {
+        "means": 0.0
+    },
+    "f1": {
+        "means": 0.0
+    },
+    "precision": {
+        "means": 0.0
+    },
+    "recall": {
+        "means": 0.0
+    },
+    "reward": {
+        "means": 0.0
+    }
+}

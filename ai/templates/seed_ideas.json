@@ -1,0 +1,10 @@
+[
+    {
+      "Name": "gru_based_rl_actor_critic",
+      "Title": "Gated Recurrent Unit (GRU) based Actor-Critic: A novel approach in hight frequency trading using GRU.",
+      "Experiment": "In this experiment, we compare the performance of GRU based Actor-Critic model with vanilla fully connected based Actor-Critic model in high frequency trading.",
+      "Interestingness": 4,
+      "Feasibility": 10,
+      "Novelty": 3
+    }
+  ]
